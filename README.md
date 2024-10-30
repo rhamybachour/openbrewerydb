@@ -26,8 +26,8 @@ Databricks was chosen as the primary tool for this project due to its powerful f
      - **bronze_layer**
      - **silver_layer**
      - **gold_layer**
-     - **libs**
-     - **schemas**
+     - **libs/tools**
+     - **libs/schemas**
    - Ensure that all imported notebooks are placed in a structured folder (e.g., `/OpenBreweryDB`) for easy navigation.
 
 ### 3. Configure the Library Dependencies
