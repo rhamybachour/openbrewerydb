@@ -49,6 +49,7 @@ Databricks was chosen as the primary tool for this project due to its powerful f
      dbutils.widgets.text("ROOT_PATH", "file:/dbfs/test")
      ```
    - You can adjust the default value as needed for your environment.
+   - You can choose your prefer cloud with a storage credencials properly configured on databricks to replace dbfs system.
 
 ### 7. Execute the Bronze Layer
    - Run the **bronze_layer** notebook. This notebook will:
