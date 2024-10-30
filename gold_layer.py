@@ -64,7 +64,7 @@ df_gold_layer = (df_breweries
     .agg(
         F.count_distinct('id').alias('quantity_of_breweries')
     )
-)
+).to(schema.GoldSchema().BREWERY_SCHEMA)
 
 # COMMAND ----------
 

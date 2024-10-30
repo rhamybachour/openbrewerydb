@@ -43,4 +43,10 @@ class SilverSchema():
     ])
 
 class GoldSchema():
-    pass
+    
+    BREWERY_SCHEMA = T.StructType([
+        T.StructField("brewery_type", T.StringType()),
+        T.StructField("city", T.StringType()),
+        T.StructField("state_province", T.StringType()),
+        T.StructField("quantity_of_breweries", T.LongType()),
+    ])
