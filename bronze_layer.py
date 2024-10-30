@@ -4,8 +4,8 @@
 
 # COMMAND ----------
 
-import libs as lib
-import schemas as schema
+import libs.tools as lib
+import libs.schemas as schema
 
 from pyspark.sql import (
     SparkSession,
